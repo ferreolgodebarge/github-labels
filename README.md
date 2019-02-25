@@ -2,7 +2,7 @@
 
 This repository contains a script to increase version contained in a file, depending on the label specified in a Github PR.
 
-For example :
+# In bash
 
 ```
 $ ./version.sh https://api.github.com/repos/ferreolgodebarge/github-labels/pulls/1 version 
@@ -16,3 +16,11 @@ Versioning becomes then automatic.
 
 
 This script needs jq.
+
+## In Python
+
+```
+$ ./version.py https://api.github.com/repos/ferreolgodebarge/github-labels/pulls/1 version
+```
+
+This script needs python 3.
